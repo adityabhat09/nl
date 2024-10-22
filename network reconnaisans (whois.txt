@@ -1,0 +1,35 @@
+network reconnaisans
+
+WHOIS:
+
+sudo apt install whois
+whois tsec.edu
+
+
+DIG:
+sudo apt install dnsutils
+dig www.google.com
+dig tsec.edu
+
+TRACEROUTE:
+
+sudo apt install traceroute
+traceroute tsec.edu
+
+nikto:
+sudo apt install nikto
+nikto -h tsec.edu
+
+Dmitry:
+sudo apt install Dmitry
+Dmitry tsec.edu
+
+WHOIS retrieves information about the registration of a domain name (like ownership, contact details, registration date, etc.).
+
+Nikto is a web server scanner that checks for vulnerabilities like outdated software, misconfigurations, or security issues.
+
+DIG (Domain Information Groper) queries DNS records to find information about domain names, such as IP addresses or mail servers.
+
+Traceroute tracks the path that packets take from your computer to a destination (e.g., a website) by listing each hop along the route.
+
+Dmitry (Deepmagic Information Gathering Tool) is a command-line tool used for gathering information about a host. It can perform functions like obtaining subdomains, email addresses, and open ports on a target system.
